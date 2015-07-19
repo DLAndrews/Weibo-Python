@@ -5,6 +5,7 @@
 ---
 1. Python书写，需要配置requests以及最新的BeautifulSoup；
 2. 在代码中前(即以下引用部分)部修改相关参数，分别输入登录的邮箱、登录密码、搜索最大页数、微博搜索关键词、查找微博用户名；
+3. 在main函数中可以通过调用和注释相关函数只搜索微博或者只找人；
 ```python
 	userNM='YourWeiboMailAddress'
 	password = 'YourWeiboPassword'
@@ -12,7 +13,7 @@
 	Search_Word = 'WORD'
 	Search_Persom = 'PersonName'
 ```
-3. 在main函数中可以通过调用和注释相关函数只搜索微博或者只找人；
+
 
 
   
